@@ -21,7 +21,7 @@ NeuNet_sigmoidGradient.m
 
 **MainPipeline.mlx**
 
-This is the main pipeline to run for accomplishing the task. It uses the data from the CSV file to train 3 different models, namely, an LDA-based classifier, a logistic regression model and a neural network. Many versions of each model are trained with a range of model parameters. The training and test accuracies are printed with graphical representations as an attempt to determine the optimum parameters for each model. The resulting models are dissected in order to gain some insights about the medical/clinical factors required for the predictions.
+This is the main pipeline to run for accomplishing the task. It uses the data from the CSV files to train 3 different models, namely, an LDA-based classifier, a logistic regression model and a neural network. Many versions of each model are trained with a range of model parameters. The training and test accuracies are printed with graphical representations as an attempt to determine the optimum parameters for each model. The resulting models are dissected in order to gain some insights about the medical/clinical factors required for the predictions.
 MainPipeline.mlx fetches the ‘T_*.csv’ in order to build the starting dataset. It is therefore desirable that MainPipeline.mlx be in the same folder as the ‘T_*.csv’ files. Alternatively, the current folder can be changed to the folder containing the ‘T_*.csv’ files before running MainPipeline.mlx.
 All the other functions must be in the same folder as MainPipeline.mlx for the latter to run properly. Alternatively, the folders in which they are stored may be added to the search path before running MainPipeline.mlx.
 
