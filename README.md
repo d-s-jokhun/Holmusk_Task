@@ -1,4 +1,4 @@
-##**~ Predicting stage progression for chronic kidney disease (CKD) ~**
+## ~ Predicting stage progression for chronic kidney disease (CKD) ~ ##
 
 These codes have been written for a data science task. We are provided with a set of longitudinal data of different lab measurements for patients diagnosed with chronic kidney disease (CKD). We are also given the information whether these patients progress in their CKD stage or not in the future. Using this dataset, we are required to come up with a solution to predict whether a patient will progress in CKD staging given the patient's past longitudinal information. All the data are provided in CSV files with filename starting with ‘T_’.
 
